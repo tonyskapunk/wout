@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Burpees",
+		"description": "Jump, squat, plank, push-up",
+		"url": "https://en.wikipedia.org/wiki/Burpee_(exercise)"
+	},
+	{
+		"name": "Jumping jacks",
+		"description": "jump open legs and arms, jump bring them back",
+		"url": "https://en.wikipedia.org/wiki/Jumping_jack"
+	},
+	{
+		"name": "Lunges",
+        "description": "Bent knee to the front, foot flat on the ground",
+        "url": "https://en.wikipedia.org/wiki/Lunge_(exercise)"
+	},
+	{
+		"name": "Sit-ups",
+        "description": "",
+        "url": "https://en.wikipedia.org/wiki/Sit-up"
+	},
+	{
+		"name": "Planks",
+        "description": "",
+        "url": "https://en.wikipedia.org/wiki/Plank_(exercise)"
+	},
+	{
+		"name": "Push-ups",
+        "description": "",
+        "url": "https://en.wikipedia.org/wiki/Push-up"
+	},
+	{
+		"name": "Squats",
+        "description": "",
+        "url": "https://en.wikipedia.org/wiki/Squat_(exercise)"
+	},
+	{
+		"name": "Tricep dips",
+        "description": "",
+        "url": "https://en.wikipedia.org/wiki/Dip_(exercise)"
+	},
+	{
+		"name": "Leg raises",
+		"description": "Lay on the floor bring your legs up and keep them above ground",
+        "url": "https://en.wikipedia.org/wiki/Leg_raise"
+	},
+	{
+		"name": "Pelvic lifts",
+		"description": "",
+        "url": "https://en.wikipedia.org/wiki/Pelvic_lift"
+	}
+]
