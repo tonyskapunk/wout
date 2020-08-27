@@ -1,0 +1,16 @@
+<!--random.html-->
+
+<!--Embed the header.html template at this location-->
+{{ template "header.html" .}}
+
+<!--Create the link for the exercise based on its URL-->
+<a href="{{.payload.URL}}">
+  <!--Display the Name of the exercise-->
+  <h1>{{.payload.Name}}</h1>
+</a>
+
+<!--Display the description of the exercise-->
+<p>{{.payload.Description}}</p>
+
+<!--Embed the footer.html template at this location-->
+{{ template "footer.html" .}}

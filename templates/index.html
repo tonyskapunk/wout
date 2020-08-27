@@ -1,0 +1,18 @@
+<!--index.html-->
+
+<!--Embed the header.html template at this location-->
+{{ template "header.html" .}}
+
+  <!--Loop over the payload variable, which is the list of exercises-->
+  {{range .payload }}
+    <!--Create the link for the exercise based on its URL-->
+    <a href="{{.URL}}">
+      <!--Display the Name of the exercise-->
+      <h2>{{.Name}}</h2>
+    </a>
+    <!--Display the Description of the exercise-->
+    <p>{{.Description}}</p>
+  {{end}}
+
+<!--Embed the footer.html template at this location-->
+{{ template "footer.html" .}}
