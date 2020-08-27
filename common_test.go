@@ -9,8 +9,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var tmpExerciseList []exercise
-
 // This function is used for setup before executing the test functions
 func TestMain(m *testing.M) {
 	//Set Gin to Test Mode
@@ -42,14 +40,3 @@ func testHTTPResponse(t *testing.T, r *gin.Engine, req *http.Request, f func(w *
 		t.Fail()
 	}
 }
-
-// This function is used to store the main lists into the temporary one
-// for testing
-func saveLists() {
-	tmpExerciseList = getAllExercises()
-}
-
-// This function is used to restore the main lists from the temporary one
-//func restoreLists() {
-//exerciseList = tmpExerciseList
-//}

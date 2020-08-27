@@ -57,7 +57,7 @@ func TestRandomExercise(t *testing.T) {
 
 // Test that a GET request to a random exercise returns in JSON
 // format when the Accept header is set to application/json
-func TestArticleListJSON(t *testing.T) {
+func TestExerciseListJSON(t *testing.T) {
 	r := getRouter(true)
 
 	// Define the route similar to its definition in the routes file
@@ -85,7 +85,7 @@ func TestArticleListJSON(t *testing.T) {
 
 // Test that a GET request to a random exercise returns in XML
 // format when the Accept header is set to application/xml
-func TestArticleXML(t *testing.T) {
+func TestExerciseXML(t *testing.T) {
 	r := getRouter(true)
 
 	// Define the route similar to its definition in the routes file
